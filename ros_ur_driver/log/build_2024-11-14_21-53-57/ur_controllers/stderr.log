@@ -1,0 +1,4 @@
+[01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:[m[K In member function ‘[01m[Kbool ur_controllers::GPIOController::setAnalogOutput(ur_msgs::srv::SetAnalogOutput_Request_<std::allocator<void> >::SharedPtr, ur_msgs::srv::SetAnalogOutput_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:410:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  410 |   if ([01;35m[Kreq->data.pin < 0[m[K || req->data.pin > 1) {
+      |       [01;35m[K~~~~~~~~~~~~~~^~~[m[K

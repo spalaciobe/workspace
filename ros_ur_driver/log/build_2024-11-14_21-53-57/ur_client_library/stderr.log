@@ -1,0 +1,10 @@
+[0mur_client_library: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:[m[K In member function ‘[01m[Kvoid urcl::UrDriver::setKeepaliveCount(uint32_t)[m[K’:
+[01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:614:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void urcl::control::ReverseInterface::setKeepaliveCount(uint32_t)[m[K’ is deprecated: Set keepaliveCount is deprecated, instead use the robot receive timeout directly in the write commands. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  614 |   [01;35m[Kreverse_interface_->setKeepaliveCount(count)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/include/ur_client_library/ur/ur_driver.h:34[m[K,
+                 from [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:34[m[K:
+[01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/include/ur_client_library/control/reverse_interface.h:142:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  142 |   [01;36m[KsetKeepaliveCount[m[K(const uint32_t count);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K

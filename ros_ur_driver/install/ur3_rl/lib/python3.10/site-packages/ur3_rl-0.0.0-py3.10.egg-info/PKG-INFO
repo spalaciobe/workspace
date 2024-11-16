@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ur3_rl
+Version: 0.0.0
+Summary: RL environment and evaluation for UR3 robot
+Maintainer: rl-public
+Maintainer-email: sp.medina@javeriana.edu.co
+License: Apache License 2.0
+Requires-Dist: setuptools
+Requires-Dist: rclpy
+Requires-Dist: sensor_msgs
+Requires-Dist: geometry_msgs
+Requires-Dist: std_srvs
+Requires-Dist: ur_msgs
+Requires-Dist: gymnasium
+Requires-Dist: torch
+Requires-Dist: skrl
+Requires-Dist: numpy

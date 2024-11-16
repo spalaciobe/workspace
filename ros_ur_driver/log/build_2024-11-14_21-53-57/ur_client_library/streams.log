@@ -1,0 +1,173 @@
+[0.280s] Invoking command in '/home/sebas/workspace/ros_ur_driver/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/sebas/workspace/ros_ur_driver/install/ur_client_library
+[1.091s] -- The C compiler identification is GNU 11.4.0
+[1.091s] -- The CXX compiler identification is GNU 11.4.0
+[1.091s] -- Detecting C compiler ABI info
+[1.091s] -- Detecting C compiler ABI info - done
+[1.091s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.091s] -- Detecting C compile features
+[1.091s] -- Detecting C compile features - done
+[1.091s] -- Detecting CXX compiler ABI info
+[1.091s] -- Detecting CXX compiler ABI info - done
+[1.091s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.091s] -- Detecting CXX compile features
+[1.091s] -- Detecting CXX compile features - done
+[1.091s] -- Performing C++17 Test
+[1.092s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[1.092s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[1.092s] -- Looking for pthread.h
+[1.092s] -- Looking for pthread.h - found
+[1.092s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.092s] [0mur_client_library: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[1.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.179s] -- Found Threads: TRUE  
+[1.179s] -- Building tests disabled.
+[1.184s] -- Configuring done
+[1.204s] -- Generating done
+[1.206s] -- Build files have been written to: /home/sebas/workspace/ros_ur_driver/build/ur_client_library
+[1.211s] Invoked command in '/home/sebas/workspace/ros_ur_driver/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/sebas/workspace/ros_ur_driver/install/ur_client_library
+[1.214s] Invoking command in '/home/sebas/workspace/ros_ur_driver/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sebas/workspace/ros_ur_driver/build/ur_client_library -- -j12 -l12
+[3.204s] [  2%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_socket.cpp.o[0m
+[3.204s] [  4%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/reverse_interface.cpp.o[0m
+[3.204s] [  6%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_server.cpp.o[0m
+[3.204s] [  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/trajectory_point_interface.cpp.o[0m
+[3.204s] [ 10%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_sender.cpp.o[0m
+[3.204s] [ 12%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/version_message.cpp.o[0m
+[3.204s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state.cpp.o[0m
+[3.204s] [ 16%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_package.cpp.o[0m
+[3.204s] [ 18%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_command_interface.cpp.o[0m
+[3.205s] [ 20%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message.cpp.o[0m
+[3.205s] [ 22%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/kinematics_info.cpp.o[0m
+[3.205s] [ 24%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_pause.cpp.o[0m
+[3.205s] [ 26%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_inputs.cpp.o[0m
+[3.205s] [ 28%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_outputs.cpp.o[0m
+[3.205s] [ 30%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_start.cpp.o[0m
+[3.205s] [ 32%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[3.205s] [ 34%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/get_urcontrol_version.cpp.o[0m
+[3.205s] [ 36%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/request_protocol_version.cpp.o[0m
+[3.205s] [ 38%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_package.cpp.o[0m
+[3.205s] [ 40%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/text_message.cpp.o[0m
+[3.381s] [ 42%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[3.414s] [ 44%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[3.728s] [ 46%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/calibration_checker.cpp.o[0m
+[4.047s] [ 48%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[4.274s] [ 50%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/tool_communication.cpp.o[0m
+[4.385s] [ 52%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/robot_receive_timeout.cpp.o[0m
+[4.452s] [ 54%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/version_information.cpp.o[0m
+[4.948s] [ 56%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m
+[4.964s] [ 58%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/default_log_handler.cpp.o[0m
+[5.109s] [ 60%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/log.cpp.o[0m
+[5.166s] [ 62%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/helpers.cpp.o[0m
+[6.929s] [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:[m[K In member function ‘[01m[Kvoid urcl::UrDriver::setKeepaliveCount(uint32_t)[m[K’:
+[6.930s] [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:614:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void urcl::control::ReverseInterface::setKeepaliveCount(uint32_t)[m[K’ is deprecated: Set keepaliveCount is deprecated, instead use the robot receive timeout directly in the write commands. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.930s]   614 |   [01;35m[Kreverse_interface_->setKeepaliveCount(count)[m[K;
+[6.930s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.930s] In file included from [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/include/ur_client_library/ur/ur_driver.h:34[m[K,
+[6.930s]                  from [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/src/ur/ur_driver.cpp:34[m[K:
+[6.930s] [01m[K/home/sebas/workspace/ros_ur_driver/src/Universal_Robots_Client_Library/include/ur_client_library/control/reverse_interface.h:142:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.930s]   142 |   [01;36m[KsetKeepaliveCount[m[K(const uint32_t count);
+[6.930s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[24.844s] [ 64%] [32m[1mLinking CXX shared library liburcl.so[0m
+[25.300s] [ 64%] Built target urcl
+[25.393s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/driver_example.dir/full_driver.cpp.o[0m
+[27.998s] [ 68%] [32m[1mLinking CXX executable driver_example[0m
+[28.184s] [ 68%] Built target driver_example
+[28.236s] [ 70%] [32mBuilding CXX object examples/CMakeFiles/force_mode_example.dir/force_mode_example.cpp.o[0m
+[30.018s] [ 72%] [32m[1mLinking CXX executable force_mode_example[0m
+[30.184s] [ 72%] Built target force_mode_example
+[30.224s] [ 74%] [32mBuilding CXX object examples/CMakeFiles/freedrive_example.dir/freedrive_example.cpp.o[0m
+[31.710s] [ 76%] [32m[1mLinking CXX executable freedrive_example[0m
+[31.824s] [ 76%] Built target freedrive_example
+[31.850s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/tool_contact_example.dir/tool_contact_example.cpp.o[0m
+[33.397s] [ 80%] [32m[1mLinking CXX executable tool_contact_example[0m
+[33.506s] [ 80%] Built target tool_contact_example
+[33.530s] [ 82%] [32mBuilding CXX object examples/CMakeFiles/spline_example.dir/spline_example.cpp.o[0m
+[35.114s] [ 84%] [32m[1mLinking CXX executable spline_example[0m
+[35.221s] [ 84%] Built target spline_example
+[35.248s] [ 86%] [32mBuilding CXX object examples/CMakeFiles/dashboard_example.dir/dashboard_example.cpp.o[0m
+[35.758s] [ 88%] [32m[1mLinking CXX executable dashboard_example[0m
+[35.898s] [ 88%] Built target dashboard_example
+[35.927s] [ 90%] [32mBuilding CXX object examples/CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o[0m
+[36.841s] [ 92%] [32m[1mLinking CXX executable rtde_client_example[0m
+[36.937s] [ 92%] Built target rtde_client_example
+[36.962s] [ 94%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_calibration_example.dir/primary_pipeline_calibration.cpp.o[0m
+[37.891s] [ 96%] [32m[1mLinking CXX executable primary_pipeline_calibration_example[0m
+[37.983s] [ 96%] Built target primary_pipeline_calibration_example
+[38.010s] [ 98%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_example.dir/primary_pipeline.cpp.o[0m
+[38.980s] [100%] [32m[1mLinking CXX executable primary_pipeline_example[0m
+[39.084s] [100%] Built target primary_pipeline_example
+[39.099s] Invoked command in '/home/sebas/workspace/ros_ur_driver/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sebas/workspace/ros_ur_driver/build/ur_client_library -- -j12 -l12
+[39.301s] Invoking command in '/home/sebas/workspace/ros_ur_driver/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sebas/workspace/ros_ur_driver/build/ur_client_library
+[39.310s] -- Install configuration: "RelWithDebInfo"
+[39.310s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/lib/liburcl.so
+[39.322s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include
+[39.322s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library
+[39.322s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm
+[39.322s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h
+[39.322s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/package.h
+[39.322s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h
+[39.323s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/parser.h
+[39.323s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/package_serializer.h
+[39.323s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/pipeline.h
+[39.323s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/bin_parser.h
+[39.323s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/control_mode.h
+[39.323s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/stream.h
+[39.324s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/tcp_server.h
+[39.324s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/comm/producer.h
+[39.324s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/types.h
+[39.324s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur
+[39.324s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h
+[39.324s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/ur_driver.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/robot_receive_timeout.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/tool_communication.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/version_information.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/ur/datatypes.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/default_log_handler.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h
+[39.325s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/data_package.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/text_message.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h
+[39.326s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/package_header.h
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/control
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/control/script_command_interface.h
+[39.327s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/control/reverse_interface.h
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/control/script_sender.h
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/exceptions.h
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/primary_package.h
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/robot_state.h
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/robot_state
+[39.328s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h
+[39.329s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/robot_message
+[39.329s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h
+[39.329s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/primary_parser.h
+[39.329s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/robot_message.h
+[39.329s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/package_header.h
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/queue
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/queue/atomicops.h
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/queue/LICENSE.md
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/log.h
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/include/ur_client_library/helpers.h
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-relwithdebinfo.cmake
+[39.330s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/lib/ur_client_library/start_ursim.sh
+[39.331s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
+[39.331s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/share/ur_client_library/package.xml
+[39.331s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
+[39.331s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv
+[39.331s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv
+[39.331s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/share/ur_client_library/resources
+[39.332s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ur_client_library/share/ur_client_library/resources/external_control.urscript
+[39.334s] Invoked command in '/home/sebas/workspace/ros_ur_driver/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sebas/workspace/ros_ur_driver/build/ur_client_library

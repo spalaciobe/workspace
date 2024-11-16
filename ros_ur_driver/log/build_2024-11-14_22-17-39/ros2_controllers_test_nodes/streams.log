@@ -1,0 +1,27 @@
+[2.955s] Invoking command in '/home/sebas/workspace/ros_ur_driver/src/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/build install --record /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data
+[3.596s] running egg_info
+[3.630s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[3.631s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[3.631s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[3.631s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[3.631s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[3.707s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.707s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.708s] running build
+[3.708s] running build_py
+[3.708s] copying ros2_controllers_test_nodes/__init__.py -> /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.708s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.708s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.708s] running install
+[3.715s] running install_lib
+[3.753s] running install_data
+[3.753s] copying resource/ros2_controllers_test_nodes -> /home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.753s] copying package.xml -> /home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[3.753s] running install_egg_info
+[3.812s] removing '/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.38.0-py3.10.egg-info' (and everything under it)
+[3.812s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.38.0-py3.10.egg-info
+[3.813s] running install_scripts
+[4.080s] Installing publisher_forward_position_controller script to /home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[4.080s] Installing publisher_joint_trajectory_controller script to /home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[4.080s] writing list of installed files to '/home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/install.log'
+[4.124s] Invoked command in '/home/sebas/workspace/ros_ur_driver/src/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/build install --record /home/sebas/workspace/ros_ur_driver/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data

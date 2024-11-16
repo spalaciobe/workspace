@@ -1,0 +1,22 @@
+[1.643s] Invoking command in '/home/sebas/workspace/ros_ur_driver/src/ur3_rl': PYTHONPATH=/home/sebas/workspace/ros_ur_driver/build/ur3_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3_rl build --build-base /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build install --record /home/sebas/workspace/ros_ur_driver/build/ur3_rl/install.log --single-version-externally-managed install_data
+[2.168s] running egg_info
+[2.198s] writing ../../build/ur3_rl/ur3_rl.egg-info/PKG-INFO
+[2.198s] writing dependency_links to ../../build/ur3_rl/ur3_rl.egg-info/dependency_links.txt
+[2.198s] writing entry points to ../../build/ur3_rl/ur3_rl.egg-info/entry_points.txt
+[2.198s] writing requirements to ../../build/ur3_rl/ur3_rl.egg-info/requires.txt
+[2.199s] writing top-level names to ../../build/ur3_rl/ur3_rl.egg-info/top_level.txt
+[2.260s] reading manifest file '../../build/ur3_rl/ur3_rl.egg-info/SOURCES.txt'
+[2.261s] writing manifest file '../../build/ur3_rl/ur3_rl.egg-info/SOURCES.txt'
+[2.261s] running build
+[2.261s] running build_py
+[2.262s] running install
+[2.267s] running install_lib
+[2.300s] running install_data
+[2.300s] copying package.xml -> /home/sebas/workspace/ros_ur_driver/install/ur3_rl/share/ur3_rl
+[2.300s] running install_egg_info
+[2.351s] removing '/home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages/ur3_rl-0.0.0-py3.10.egg-info' (and everything under it)
+[2.351s] Copying ../../build/ur3_rl/ur3_rl.egg-info to /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages/ur3_rl-0.0.0-py3.10.egg-info
+[2.352s] running install_scripts
+[2.586s] Installing evaluate_ur3 script to /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/ur3_rl
+[2.586s] writing list of installed files to '/home/sebas/workspace/ros_ur_driver/build/ur3_rl/install.log'
+[2.620s] Invoked command in '/home/sebas/workspace/ros_ur_driver/src/ur3_rl' returned '0': PYTHONPATH=/home/sebas/workspace/ros_ur_driver/build/ur3_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3_rl build --build-base /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build install --record /home/sebas/workspace/ros_ur_driver/build/ur3_rl/install.log --single-version-externally-managed install_data

@@ -1,0 +1,44 @@
+[0.030s] Invoking command in '/home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sebas/workspace/ros_ur_driver/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets
+[0.304s] -- The C compiler identification is GNU 11.4.0
+[0.304s] -- The CXX compiler identification is GNU 11.4.0
+[0.304s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.305s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.876s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.100s] -- Configuring done
+[1.103s] -- Generating done
+[1.105s] -- Build files have been written to: /home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets
+[1.112s] Invoked command in '/home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sebas/workspace/ros_ur_driver/src/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets
+[1.117s] Invoking command in '/home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets -- -j12 -l12
+[3.226s] Invoked command in '/home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets -- -j12 -l12
+[3.360s] Invoking command in '/home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets
+[4.025s] -- Install configuration: ""
+[4.025s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/include
+[4.026s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/include/ros2_control_test_assets
+[4.026s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[4.026s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[4.026s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[4.026s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[4.027s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[4.027s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[4.027s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[4.027s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[4.031s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[4.031s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[4.031s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[4.031s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[4.032s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[4.032s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[4.032s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.032s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[4.032s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[4.032s] -- Installing: /home/sebas/workspace/ros_ur_driver/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[4.033s] Invoked command in '/home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sebas/workspace/ros_ur_driver/install/ur3_rl:/home/sebas/workspace/ros_ur_driver/install/rqt_joint_trajectory_controller:/home/sebas/workspace/ros_ur_driver/install/rqt_controller_manager:/home/sebas/workspace/ros_ur_driver/install/ros2controlcli:/home/sebas/workspace/ros_ur_driver/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sebas/workspace/ros_ur_driver/build/ros2_control_test_assets

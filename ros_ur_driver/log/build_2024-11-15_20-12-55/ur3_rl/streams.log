@@ -1,0 +1,30 @@
+[0.659s] Invoking command in '/home/sebas/workspace/ros_ur_driver/src/ur3_rl': AMENT_PREFIX_PATH=/home/sebas/workspace/ros_ur_driver/install/ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/workspace/ros_ur_driver/install/ur_msgs LD_LIBRARY_PATH=/home/sebas/workspace/ros_ur_driver/install/ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/workspace/ros_ur_driver/build/ur3_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages:/home/sebas/workspace/ros_ur_driver/install/ur_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3_rl build --build-base /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build install --record /home/sebas/workspace/ros_ur_driver/build/ur3_rl/install.log --single-version-externally-managed install_data
+[0.843s] running egg_info
+[0.857s] writing ../../build/ur3_rl/ur3_rl.egg-info/PKG-INFO
+[0.857s] writing dependency_links to ../../build/ur3_rl/ur3_rl.egg-info/dependency_links.txt
+[0.857s] writing entry points to ../../build/ur3_rl/ur3_rl.egg-info/entry_points.txt
+[0.857s] writing requirements to ../../build/ur3_rl/ur3_rl.egg-info/requires.txt
+[0.857s] writing top-level names to ../../build/ur3_rl/ur3_rl.egg-info/top_level.txt
+[0.885s] reading manifest file '../../build/ur3_rl/ur3_rl.egg-info/SOURCES.txt'
+[0.885s] writing manifest file '../../build/ur3_rl/ur3_rl.egg-info/SOURCES.txt'
+[0.885s] running build
+[0.886s] running build_py
+[0.886s] copying ur3_rl/ur3_reaching_env.py -> /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build/lib/ur3_rl
+[0.886s] copying ur3_rl/move_ur3_to_target.py -> /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build/lib/ur3_rl
+[0.886s] copying ur3_rl/evaluate_ur3.py -> /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build/lib/ur3_rl
+[0.886s] copying ur3_rl/simple_controller.py -> /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build/lib/ur3_rl
+[0.886s] running install
+[0.890s] running install_lib
+[0.904s] copying /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build/lib/ur3_rl/ur3_reaching_env.py -> /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages/ur3_rl
+[0.904s] byte-compiling /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages/ur3_rl/ur3_reaching_env.py to ur3_reaching_env.cpython-310.pyc
+[0.905s] running install_data
+[0.905s] copying package.xml -> /home/sebas/workspace/ros_ur_driver/install/ur3_rl/share/ur3_rl
+[0.906s] running install_egg_info
+[0.920s] removing '/home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages/ur3_rl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.921s] Copying ../../build/ur3_rl/ur3_rl.egg-info to /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages/ur3_rl-0.0.0-py3.10.egg-info
+[0.921s] running install_scripts
+[1.045s] Installing evaluate_ur3 script to /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/ur3_rl
+[1.045s] Installing move_ur3_to_target script to /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/ur3_rl
+[1.045s] Installing simple_controller script to /home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/ur3_rl
+[1.046s] writing list of installed files to '/home/sebas/workspace/ros_ur_driver/build/ur3_rl/install.log'
+[1.065s] Invoked command in '/home/sebas/workspace/ros_ur_driver/src/ur3_rl' returned '0': AMENT_PREFIX_PATH=/home/sebas/workspace/ros_ur_driver/install/ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebas/workspace/ros_ur_driver/install/ur_msgs LD_LIBRARY_PATH=/home/sebas/workspace/ros_ur_driver/install/ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebas/workspace/ros_ur_driver/build/ur3_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sebas/workspace/ros_ur_driver/install/ur3_rl/lib/python3.10/site-packages:/home/sebas/workspace/ros_ur_driver/install/ur_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur3_rl build --build-base /home/sebas/workspace/ros_ur_driver/build/ur3_rl/build install --record /home/sebas/workspace/ros_ur_driver/build/ur3_rl/install.log --single-version-externally-managed install_data
