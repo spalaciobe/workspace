@@ -1,0 +1,4 @@
+[console_scripts]
+evaluate_ur3 = ur3_rl.evaluate_ur3:main
+move_ur3_to_target = ur3_rl.move_ur3_to_target:main
+simple_controller = ur3_rl.simple_controller:main

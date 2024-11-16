@@ -1,0 +1,18 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/Analog.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/Digital.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/IOStates.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:srv/SetAnalogOutput.srv",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:srv/SetPayload.srv",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:srv/SetIO.srv",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:srv/GetRobotSoftwareVersion.srv",
+    "/home/sebas/workspace/ros_ur_driver/src/ur_msgs:srv/SetForceMode.srv"
+  ]
+}

@@ -1,0 +1,10 @@
+setuptools
+rclpy
+sensor_msgs
+geometry_msgs
+std_srvs
+ur_msgs
+gymnasium
+torch
+skrl
+numpy
