@@ -30,12 +30,12 @@ https://docs.ros.org/en/ros2_packages/humble/api/ur_robot_driver/doc/installatio
 
 ## Enable external control URSim
 4. PROGRAM THE ROBOT
-![alt text](image-1.png)
+![alt text](media/image-1.png)
 5. LEFT PANEL: URcaps> External Control
-![alt text](image-2.png)
+![alt text](media/image-2.png)
 6. POWER ON THE ROBOT
 7. RUN THE PROGRAM
-![alt text](image-3.png)
+![alt text](media/image-3.png)
 
 ## Run simple_controller
 8. 
